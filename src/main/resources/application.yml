@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/springsecurity?createDatabaseIfNotExist=true
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.MySQLDialect
+#logging.level.org.springframework.web: ERROR
+#logging.level.org.hibernate: ERROR
